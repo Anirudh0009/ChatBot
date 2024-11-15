@@ -1,0 +1,68 @@
+{"intents": [
+    {"tag": "greeting",
+    "input":["Hi","Hey","Hello","Is Anyone There?","Hay"],
+    "responses":["Hello","Hi","Hey"]
+    },
+    {"tag":"goodbye",
+    "input":["Bye","See you later","Goodbye"],
+    "responses": ["See you later","Bye","Come back again","Have a nice day"]
+    },
+    {"tag": "thanks",
+    "input":["Thanks","Thank you", "Thats helpful","Thanks for the help"],
+    "responses":["Happy to hepl!","Any time!","My Plesure","Your most welcome"]
+    },
+    {"tag": "help",
+    "input":["Could you help me","give me a hand please","can you help","What can you do for me","I need a support", "I need your help","support me please"],
+    "responses":["Tell me how can we assist you","please share your problem","Sure, How can we may assist you"]
+    },
+    {"tag":"complaint",
+    "input":["I have a complaint", "I want to raise a complaint","There is a complaint about your service"],
+    "responses":["Please provide us your complaint in order to assist you","Kindly mention your complaint,we will reach you and sorry for any inconvenience caused"]
+    },
+    {"tag":"product_availability",
+    "input":["Do you have fresh Oranges in stock?","Are Oranges available today","Can i buy Oranges right now?","Is there fresh stock of oranges?"],
+    "responses":["Yes,fresh ornages are available today!Would you like to add some on your cart?","Absolutely! Fresh oranges are in stock, would you like to order some?","Yes,fresh oranges are ready to purchase. Feel free to add them in your cart!","Yes, we have just received a fresh stock of oranges.You can order them now"]
+    },
+    {"tag":"price_inquiry",
+    "input":["Whats the prize of Bananas?","How much are Bananas per kg?","Can you tell me cost of Bananas today?","Whats the rate of 1Kg of Bananas?"],
+    "responses":["Bananas are $40 per kg today.Would you like to add them to your cart","The current price for bananas is ₹40 per kg. How many would you like?","Today's price for bananas is ₹40 per kg. Feel free to order!","Bananas are priced at ₹40 per kg today."]
+    },
+    {"tag": "delivery_options",
+    "input": ["What delivery options do you offer?","How can I get my items delivered?","What are the shipping options?","Are there different delivery choices?"],
+    "responses": ["We offer same-day, next-day, and scheduled delivery options. Which one suits you?","You can choose between same-day delivery (if ordered before 2 PM), next-day, or scheduled delivery.","Our shipping options include same-day and next-day delivery.","Yes, we offer same-day, next-day, and scheduled delivery options."]
+    },
+    {"tag": "order_status",
+    "input": ["Where's my order?","Can I track my order?","What's the current status of my order?","Has my order been shipped?"],
+    "responses": ["You can track your order using the link in your confirmation email or via the 'Order Tracking' page on our website.","Yes, you can track your order through the tracking link we emailed to you.","You can check the status of your order via the 'My Orders' section on our website.","Please provide your order number, and I'll check the shipping status for you."]
+    },
+    {"tag": "payment_methods",
+    "input": ["What payment options do you accept?","Can I pay via credit card?","Do you support UPI payments?","What methods of payment can I use?"],
+    "responses": ["We accept major credit cards, debit cards, UPI, and cash on delivery.","Yes, you can use any major credit card to complete your purchase.","Yes, UPI payments are accepted.","You can pay using credit cards, debit cards, UPI, or cash on delivery."]
+    },
+    {"tag": "discounts_promotions",
+    "input":["Are there any deals today?","Do you have promotions running?","Can I get any discounts today?","Are there any special offers on items?"],
+    "responses":["Yes! We have a 10% discount on fruits and 15% off on vegetables today.","Yes, we're offering discounts on select items like fruits, vegetables, and fish.","Yes, there's a 15% discount on vegetables. Would you like me to add some to your cart?","Yes, we have promotions on fruits and fish today. You can view all the deals on our promotions page."]
+    },
+    {"tag": "quality_freshness",
+    "input":["Are the fruits organic?","Do you sell pesticide-free vegetables?","How fresh are your fish?","Are the vegetables chemical-free?"],
+    "responses":["Yes, we have a selection of organic fruits available. Look for the 'Organic' label.","Yes, many of our vegetables are grown without pesticides, and we also offer certified organic options.","Our fish is sourced daily to ensure maximum freshness. You can check the fish section for more details.","Yes, we offer vegetables that are grown with minimal or no chemicals, and organic options are available."]
+    },
+    {"tag": "order_placement",
+    "input":["How do I place an order on the website?","Can I order online?","What's the process to make an order?","How can I add items to my cart?"],
+    "responses":["Simply browse the products, add them to your cart, and proceed to checkout. Let me know if you need help.","Yes, you can place your order directly through our website.","Browse our products, add items to your cart, and proceed to checkout.","To add items, simply click on the product and choose 'Add to Cart'."]
+    }, 
+    {"tag": "stock_inquiry",
+    "input":["What vegetables are available today?","Which fruits are currently in stock?","Can you show me all the fish in stock?","What fresh produce do you have right now?"],
+    "responses":["We have fresh tomatoes, spinach, carrots, and more in stock today.","We have fresh apples, bananas, oranges, and more available today.","We have salmon, mackerel, and prawns in stock. Would you like to view more options?","We have a variety of fresh fruits and vegetables available. You can browse the full list on our website."]
+    },
+    {"tag": "order_modification",
+    "input":["Can I change my order after placing it?","How do I modify my order?","Can I add items to my order after checking out?","How can I cancel my order?"],
+    "responses":["Yes, you can modify your order as long as it hasn't been shipped yet. Please visit the 'My Orders' section to make changes.", "You can modify your order through the 'My Orders' section on the website before it’s shipped.", "Yes, you can add items if your order hasn't been processed yet. Please visit 'My Orders' to modify it.", "You can cancel your order from the 'My Orders' page before it's shipped."]
+    }     
+]
+}
+
+
+
+
+    
